@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Canciones } from '../interface/canciones.modelo';
+import { CancionService } from '../services/cancion.service';
+
 
 @Component({
   selector: 'app-home',
@@ -7,6 +10,12 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  cancion:Canciones []= [];
 
+  constructor(private CancionService:CancionService) {}
+
+
+  MostarLista(){
+    this.cancion=this.CancionService.getAll();
+  }
 }
