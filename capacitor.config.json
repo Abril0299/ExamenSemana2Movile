@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ExamenMovileCanciones",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

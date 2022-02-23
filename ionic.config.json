@@ -1,0 +1,7 @@
+{
+  "name": "ExamenMovileCanciones",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
